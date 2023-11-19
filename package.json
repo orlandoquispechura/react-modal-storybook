@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "build-static-webapp":"expo build:web"
+    "start": "storybook dev -p 6006",
+    "build": "build-storybook"
   },
   "keywords": [],
   "author": "",
